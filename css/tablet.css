@@ -1,0 +1,172 @@
+/********** TABLETTE **********/
+/******************************/
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+
+    
+  
+    
+    main {
+        margin: 0%;
+        padding: 0%;
+    }
+
+
+    h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #section-recherche, #section-filtres, .infobulle-filtres, aside, #section-activites {
+        margin: 10px 20px 20px 20px;
+    }
+
+    /***** HEADER *****/
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        padding: 30px 0 0 20px;
+    }
+
+
+    li a:active {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+    }
+
+
+    /***** FILTRES *****/
+
+    #section-filtres {
+        padding: 0px;
+    }
+
+    .text-filtre {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .filtres {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;  
+    }
+
+    .filtre {
+        margin-bottom: 15px;
+    }
+
+
+
+    /***** HEBERGEMENTS *****/
+
+    .section-hebergement {
+        display: flex;
+        flex-direction: column-reverse;   
+    }
+
+    aside {    
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0px;
+        padding: 15px;
+        border-radius: 0px;
+    }
+
+    .famous-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .famous-card {
+        width: 45%;
+    }
+
+
+    .famous-pic-side {
+        width: 120px;
+    }
+
+    .pic-fill-aside {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 20px 0px 0px 20px;  
+    }
+
+    .host-cards {
+        box-sizing: border-box;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .card {
+        width: 30%;
+    }
+
+    .pic-fill {
+        width: 100%;
+    }
+
+
+
+    /***** ACTIVITES *****/
+    
+    .activities-cards {
+        height: 600px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    
+    .activity-card, .activity-card-small, .activity-card-mid {
+        width: 30%;
+        height: 240px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 4px 2px 2px #e8e8e8;
+        margin-bottom: 15px;
+    }
+    
+    
+    .activity-pic-fill-xl, .activity-pic-fill-m, .activity-pic-fill-s  {
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+        
+    }
+
+
+    /***** FOOTER *****/
+
+    footer {
+        background-color: #F2F2F2;
+        margin-top: 4%;
+        padding: 25px 0 25px 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .footer-column{
+        width: 30%;
+    }
+    
+
+
+
+   
+}
