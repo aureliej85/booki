@@ -154,13 +154,21 @@
     footer {
         background-color: #F2F2F2;
         margin-top: 4%;
-        padding: 25px 0 25px 20px;
+        padding: 25px 0 25px 0;
         width: 100%;
+    
+    }
+    
+
+    .footer-columns {
+        width: 100%;
+        padding-left: 25px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+
     }
-    
+
     .footer-column{
         width: 30%;
     }
