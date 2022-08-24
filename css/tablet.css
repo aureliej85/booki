@@ -4,8 +4,6 @@
 @media only screen and (min-width: 768px) and (max-width: 992px){
 
     
-  
-    
     main {
         margin: 0%;
         padding: 0%;
@@ -17,7 +15,7 @@
         font-weight: bold;
     }
 
-    #section-recherche, #section-filtres, .infobulle-filtres, aside, #section-activites {
+    #section-recherche, #section-filtres, .infobulle-filtres, aside {
         margin: 10px 20px 20px 20px;
     }
 
@@ -29,14 +27,23 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 30px;
-        padding: 30px 0 0 20px;
+        padding: 15px 0 0 20px;
     }
 
-
-    li a:active {
-        color: #0065FC;
-        border-bottom: 2px solid #0065FC;
+    header ul {
+        margin-top: 0px;
     }
+
+    header li:hover {
+        border-top: 2px solid #0065FC;
+        padding-top: 25px;
+        
+    }
+
+    .header__logo img {
+        margin-top: 0px;
+    }
+
 
 
     /***** FILTRES *****/
@@ -66,6 +73,7 @@
     /***** HEBERGEMENTS *****/
 
     .section-hebergement {
+        width: 100%;
         display: flex;
         flex-direction: column-reverse;   
     }
@@ -74,7 +82,7 @@
         box-sizing: border-box;
         width: 100%;
         margin: 0px;
-        padding: 15px;
+        padding: 35px 20px 25px 20px;
         border-radius: 0px;
     }
 
@@ -86,6 +94,7 @@
 
     .famous-card {
         width: 45%;
+        padding: 0.7%;
     }
 
 
@@ -107,11 +116,18 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        padding: 35px 20px 35px 20px;
+    }
+
+
+    .cards {
+        width: 100%;
     }
 
 
     .card {
         width: 30%;
+        box-shadow: 0px 3px 14px 4px #e8e8e8;
     }
 
     .pic-fill {
@@ -121,9 +137,14 @@
 
 
     /***** ACTIVITES *****/
+
+    #section-activites {
+        padding: 35px 20px 35px 20px;
+        margin: 0px;
+    }
     
     .activities-cards {
-        height: 600px;
+        height: 550px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -135,7 +156,7 @@
         height: 240px;
         background-color: white;
         border-radius: 20px;
-        box-shadow: 4px 2px 2px #e8e8e8;
+        box-shadow: -1px 4px 12px #e8e8e8;
         margin-bottom: 15px;
     }
     
